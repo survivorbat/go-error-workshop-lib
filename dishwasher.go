@@ -26,5 +26,6 @@ func RunProgram(program string, intensity int) error {
 	}
 
 	time.Sleep(20 * time.Millisecond)
+
 	return nil
 }
